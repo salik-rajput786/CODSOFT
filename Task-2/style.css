@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: 'gilroy';
+    scroll-behavior: smooth;
+}
+.main{
+    width: 100%;
+    height: 100%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100% ;
+    height: 100px;
+    padding: 0px 30px;
+}
+.main-1{
+   
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.nav h3, #menu{
+    font-size: 17px;
+    border: 1.5px solid black;
+    border-radius: 50px;
+    font-weight: 500;
+    padding: 5px 10px;
+}
+.main2 h1{
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+ .nav button{
+      padding: 7px 12px;
+      border-radius: 50px;
+      border: 1.5px solid black;
+      font-size: 16px;
+      font-weight: 600;
+      background-color: #fff;
+      cursor: pointer;
+ }
+     
+ button:hover {
+    background: #ababab;
+    transform:translateY(-10px);
+}
+
+ #Sing{   
+           background-color: orangered;
+           color: white;
+ }
+ #Sing:hover{
+    background: lightseagreen;
+    transform:translateY(-10px);
+ }
+ .text h1{
+          position: absolute;
+          font-size: 150px;
+          text-transform: uppercase;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+          width: 100%;
+          text-align: center;
+ }
+ img{
+    height: 400px;
+    width: 370px;
+    object-fit: cover;
+    /* object-position: top; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    transform: translate(-50%,-50%);
+ }
+ #img-1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+ }
+
+ #img-2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+ }
+
+ #img-3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+ }
+
+ #img-4{
+    transform: translate(-50%,-50%) rotate(-15deg);
+ }
+#btm{
+    font-size: 17px;
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+}
+#icon{
+    position: absolute;
+    font-size: 40px;
+    bottom: 1%;
+    right:  50%;
+    transform: translate(-50%,-50%);  
+    cursor: pointer;
+    border-radius: 150px 150px 0 0;
+}
+#icon:hover{
+    transform:translateX(-10px);
+    color: #ababab;
+}
+
+.social-icons{
+    text-decoration: none;
+    position: absolute;
+    bottom: 2%;
+    right: 5%;
+  }
+  .social-icons a{
+    text-decoration: none;
+    margin-right:15px;
+    font-size: 30px;
+    color: #ababab;
+    display: inline-block;
+    transition: transform 0.5s;
+    
+  }
+  .social-icons a:hover{
+    color: #ff004f;
+   transform: translateY(-5px);
+  
+  }
